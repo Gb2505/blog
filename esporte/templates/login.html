@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %} Login {% endblock %}
+
+    {% block content %}
+
+<div class="main-container centered-flex">
+
+    <div class="form-container">
+
+        <div class="icon fa fa-user"></div>
+
+        <form class="centered-flex">
+
+            <div class="title">Conectar</div>
+
+            <div class="msg"></div>
+
+            <div class="field">
+
+                <input type="text" placeholder="Apelido" id="uname">
+
+                <span class="fa fa-user"></span>
+
+            </div>
+
+            <div class="field">
+
+                <input type="password" placeholder="Senha" id="pass">
+
+                <span class="fa fa-lock"></span>
+
+            </div>
+
+            <div class="action centered-flex">
+
+                <label for="remember" class="centered-flex">
+
+                    <input type="checkbox" id="remember"> Lembrar
+
+                </label>
+
+                <a href="#">Esqueçeu a senha ?</a>
+
+            </div>
+
+            <div class="btn-container">
+
+                <input type="submit" id="login-btn" value="Login">
+
+            </div>
+
+            <div class="signup">Não tem uma conta? Registre<a href="/base/"> Registar</a></div>
+
+        </form>
+
+    </div>
+
+</div>
+    {% endblock %}
