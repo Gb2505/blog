@@ -1,0 +1,37 @@
+<aside>
+
+    <button class="menu-btn fa fa-chevron-left"></button>
+
+    <a href="/" class="logo-wrapper">
+        <span class="fa-solid fa-medal"></span>
+        <span class="brand-name">Nome do blog</span>
+    </a>
+
+    <div class="separator"></div>
+    <ul class="menu-items">
+        <li><a href="{% url 'home' %}"><span class="icon fa fa-house"></span><span class="item-name">Home</span></a><span
+                class="tooltip">Home</span>
+        </li>
+
+        <li><a href="{% url 'fut' %}"><span class="icon fa-solid fa-futbol"></span><span class="item-name">Futebol</span></a>
+            <span class="tooltip">Pesquisar</span>
+        </li>
+
+        <li><a href=""><span class="icon fa-solid fa-volleyball"></span><span class="item-name">Volei</span></a>
+            <span class="tooltip">análise</span>
+        </li>
+
+        <li><a href="{% url 'basquete' %}"><span class="icon fa-solid fa-basketball"></span><span class="item-name">Basquete</span></a>
+            <span class="tooltip">tabela de classificação</span>
+        </li>
+
+        <li><a href="{% url 'contato' %}"><span class="icon fa fa-comment-dots"></span><span class="item-name">Contato</span></a>
+            <span class="tooltip">Account</span>
+        </li>
+
+        <li><a href="{% url ''%}"><span class="fa-solid fa-right-from-bracket"></span><span class="item-name">Sair</span></a>
+            <span class="tooltip">Contact</span>
+        </li>
+    </ul>
+
+</aside>

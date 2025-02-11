@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'esporte/css/fut.css' %}">
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>Futebol</h1>
+        </div>
+        <div class="menu">
+             <a href="#">Pagina Inicial</a>
+             <a href="#">Contato</a>
+        </div>
+
+    </div>
+    <div class="container">
+      <div class="posts">
+         <div class="post">
+            <h2>Santos</h2>
+            <span class="data-post">09 de fevereiro de 2025</span>
+            <img class="figura" src="./neymar-rhg1bsdhrnli.webp" width="620px">
+            <p>Uma camisa preparada para Neymar e autografada pelo craque em sua reestreia pelo Santos, na última quarta-feira, 5, contra o Botafogo-SP pelo Campeonato Paulista, está sendo leiloada virtualmente e os lances já ultrapassam os R$ 57 mil por volta das 21h39 deste domingo, 9. A peça não foi usada pelo atacante no jogo, mas leva o selo “match-issued”, que significa que há marcas de utilização, ou seja, foi vestida em algum momento da partida, provavelmente em aquecimentos.</p>
+             <a href="#">Leia mais</a>
+        </div>
+        <div class="posts">
+            <div class="post">
+               <h2>Flamengo</h2>
+               <span class="data-post">03 de fevereiro de 2025</span>
+               <img class="figura" src="esporte/static/esporte/img/banner-de-campeão-supercopa-rei-2025-vamoooo-flamengo-v0-78fwc57bvsge1.webp" width="620px">
+               <p> Flamengo se torna o maior campeão da SuperCopa do brasil</p>
+                <a href="#">Leia mais</a>
+           </div>
+      </div>
+      <div class="post">
+        <h2>Botafogo</h2>
+        <span class="data-post">05 de fevereiro de 2025</span>
+        <img class="figura" src="./59a32ca76805c.webp" width="620px">
+        <p>Botafogo sofre com lesões na reta final dos estaduais</p>
+         <a href="#">Leia mais</a>
+    </div>
+      <div class="barra-lateral">
+        
+      </div>
+    </div>
+</body>
+{%endblock%}

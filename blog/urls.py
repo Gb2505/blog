@@ -16,14 +16,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from esporte.views import base
+from esporte.views import inicio
 from esporte.views import login
+from esporte.views import contato
+from esporte.views import basquete
+from esporte.views import fut
+
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('base/', base), 
-    path('', login)  
-
+    path('inicio/', inicio, name='home'),
+    path('', login, name=''),
+    path('contato/', contato, name='contato'), 
+    path('basquete/', basquete, name="basquete" ), 
+    path('fut/', fut, name= 'fut')
+    
 
 ]

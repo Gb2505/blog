@@ -1,0 +1,38 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+.wrapper {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card { 
+    flex: 1;
+    height: 100%;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+.card1 {
+    background-image: url(esporte/static/esporte/photo/Football_in_Bloomington,_Indiana,_1995.jpg);
+}
+
+.card:hover {
+    flex: 3;
+} */
